@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { StyleSheet, View, Image } from 'react-native'
+import { StyleSheet, View, Image, StatusBar } from 'react-native'
 
 const Splash = ({ navigation }) => {
 
@@ -25,6 +25,7 @@ const Splash = ({ navigation }) => {
 
     return (
         <View style={styles.viewStyles}>
+            <StatusBar backgroundColor="red" />
             <Image
                 style={{ width: 300, height: 300, resizeMode: 'contain' }}
                 source={require('../asset/splash.png')} />

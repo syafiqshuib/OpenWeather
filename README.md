@@ -6,7 +6,7 @@
 ```
 npm install
 ```
-3. Run project on iOS / Android.
+3. Run project on Android.
 ```
 npx react-native run-android
 ```
